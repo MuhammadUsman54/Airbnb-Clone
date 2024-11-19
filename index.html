@@ -15,41 +15,48 @@
         alt="Airbnb logo" />
       <span>airbnb</span>
     </div>
-    <nav>
-      <a href="#" class="stay">Stays</a>
-      <a href="#" class="stay">Experiences</a>
-      <a href="#">Airbnb your home</a>
-      <i class="fas fa-globe"></i>
-      <i class="fas fa-bars"></i>
-      <i class="fas fa-user-circle"></i>
-    </nav>
+    <nav class="nav-links">
+      <a href="#">Stays</a>
+      <a href="#">Experiences</a>
+  </nav>
+  <div class="user-options">
+      <a href="#" class="ayh">Airbnb your home</a>
+      <div class="icons">
+          <span class="globe">🌍</span>
+          <button class="icons">
+           <span >☰</span>
+          <div>👤</div>
+          </button>
+
+      </div>
   </header>
+
   <div class="search-bar">
     <div class="container">
       <div class="section">
-        <span>Where</span>
-        <span>Search destinations</span>
+        <label>Where</label>
+        <input type="text" placeholder="Search destinations">
       </div>
       <div class="divider"></div>
       <div class="section">
-        <span>Check in</span>
-        <span>Add dates</span>
+        <label for="">Check in</label>
+        <input type="text" placeholder="Add dates">
       </div>
       <div class="divider"></div>
       <div class="section">
-        <span>Check out</span>
-        <span>Add dates</span>
+       <label for="">Check out</label>
+        <input type="text" placeholder="Add dates">
       </div>
       <div class="divider"></div>
       <div class="section">
-        <span>Who</span>
-        <span>Add guests</span>
+        <label for="">Who</label>
+        <input type="text" placeholder="Add guests">
       </div>
       <button>
         <i class="fas fa-search"></i>
       </button>
     </div>
-  </div>
+  </div> 
   <div class="product-card-container">
     <div class="product-card">
       <img src="./assets/pic1.png" alt="Product image" />
@@ -119,11 +126,7 @@
     </div>
   </div>
 
-  <footer>
-    <p class="rights">
-      &copy; 2024 Airbnb clone. All rights reserved. Designed by Muhammad Usman .
-    </p>
-  </footer>
+
 </body>
 
 </html>
